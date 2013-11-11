@@ -1,0 +1,2 @@
+## Task 2
+Create a dependency injection container class. It doesn't have to be overly complicated or production ready. I'm only looking to see your approach to DI and your approach to writing classes. Use your imagination to decide which features the container should have.

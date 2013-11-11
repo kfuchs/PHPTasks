@@ -1,0 +1,100 @@
+<?php
+
+/**
+ * The building blocks for adding a service to Varivax.
+ * 
+ * @author kirill <kirill.fuchs@gmail.com>
+ * @package ServiceContainer\Varicella
+ */
+class Varicella
+{
+    /**
+     * Service.
+     * 
+     * @var string
+     */
+    private $service;
+    
+    /**
+     * Alias for the service.
+     * 
+     * @var string
+     */
+    private $alias;
+    
+    /**
+     * An array of parameters to pass into the service.
+     * 
+     * @var array
+     */
+    private $configs = array();
+    
+    /**
+     * Get service.
+     * 
+     * @return string
+     */
+    public function getService()
+    {
+        return $this->service;
+    }
+    
+    /**
+     * Set service.
+     * 
+     * @param string $service
+     * @return Varicella
+     */
+    public function setService($service)
+    {
+        $this->service = $service;
+        
+        return $this;
+    }
+    
+    /**
+     * Get alias.
+     * 
+     * @return string
+     */
+    public function getAlias()
+    {
+        return $this->alias;
+    }
+    
+    /**
+     * Set alias.
+     * 
+     * @param string $alias
+     * @return Varicella
+     */
+    public function setAlias($alias)
+    {
+        $this->alias = $alias;
+        
+        return $this;
+    }
+    
+    /**
+     * Get configs.
+     * 
+     * @return array
+     */
+    public function getConfigs()
+    {
+        return $this->configs;
+    }
+    
+    /**
+     * Set configs.
+     * 
+     * @param array $configs
+     * @return Varicella
+     */
+    public function setConfigs(array $configs)
+    {
+        $this->configs = $configs;
+        
+        return $this;
+    }
+}
