@@ -59,4 +59,4 @@ $container
     ));
     
 
-die(print_r($container));
+print_r($container);

@@ -4,6 +4,7 @@
  *
  * However, probably not the answer your looking for :).
  *
+ * @author Kirill <kirill.fuchs@gmail.com>
  * @param string $url The URL to parse. Invalid characters are replaced by _.
  * @param int $component Specify one of PHP_URL_SCHEME, PHP_URL_HOST, PHP_URL_PORT, PHP_URL_USER,
  *      PHP_URL_PASS, PHP_URL_PATH, PHP_URL_QUERY or PHP_URL_FRAGMENT to retrieve just a specific
@@ -22,6 +23,8 @@ function parse_url_clone($url, $component = -1)
  *
  * The goal is to break down the url into the URI schema defined by RFC 3986.
  * @todo clean me up :).
+ * 
+ * @author Kirill <kirill.fuchs@gmail.com>
  * @link http://en.wikipedia.org/wiki/URI_scheme
  * @param string $url
  */
